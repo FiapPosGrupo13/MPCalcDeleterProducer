@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MPCalcRegisterProducer\MPCalcDeleterProducer.csproj" />
+    <ProjectReference Include="..\MPCalcDeleterProducer\MPCalcDeleterProducer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

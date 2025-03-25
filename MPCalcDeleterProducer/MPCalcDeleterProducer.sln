@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPCalcDeleterProducer", "MPCalcDeleterProducer.csproj", "{AA39DF72-5AB7-4E8B-A041-37B89D945680}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPCalcDeleterProducerTest", "..\MPCalcRegisterProducerTest\MPCalcDeleterProducerTest.csproj", "{75E60B4B-B361-438E-AFF5-B08F243D31AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPCalcDeleterProducerTest", "..\MPCalcDeleterProducerTest\MPCalcDeleterProducerTest.csproj", "{1972801F-0CD1-4813-BC2B-FEC7B7690382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AA39DF72-5AB7-4E8B-A041-37B89D945680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA39DF72-5AB7-4E8B-A041-37B89D945680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA39DF72-5AB7-4E8B-A041-37B89D945680}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75E60B4B-B361-438E-AFF5-B08F243D31AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75E60B4B-B361-438E-AFF5-B08F243D31AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75E60B4B-B361-438E-AFF5-B08F243D31AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75E60B4B-B361-438E-AFF5-B08F243D31AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1972801F-0CD1-4813-BC2B-FEC7B7690382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1972801F-0CD1-4813-BC2B-FEC7B7690382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1972801F-0CD1-4813-BC2B-FEC7B7690382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1972801F-0CD1-4813-BC2B-FEC7B7690382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
