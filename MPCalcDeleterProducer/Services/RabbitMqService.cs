@@ -78,8 +78,7 @@ public class RabbitMqService : IRabbitMqService
             queue: _queueName,
             durable: true, // Recomendado para DLQ
             exclusive: false,
-            autoDelete: false,
-            arguments: arguments);
+            autoDelete: false);
 
          await channel.QueueBindAsync(
             queue: _queueName,
