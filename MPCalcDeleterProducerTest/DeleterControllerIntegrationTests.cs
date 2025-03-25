@@ -8,7 +8,7 @@ public class DeleterControllerIntegrationTests
 {
     private readonly IRabbitMqService _rabbitMqService;
     private readonly DeleterController _controller;
-    private readonly string _queueName = "mpcalc-deleter-queue";
+    private readonly string _queueName = "mpcalchub.contact_removed";
 
     public DeleterControllerIntegrationTests()
     {
@@ -48,8 +48,8 @@ public class DeleterControllerIntegrationTests
 
         await channel.QueueDeclareAsync(_queueName, durable: true, exclusive: false, autoDelete: false, arguments: new Dictionary<string, object>
         {
-            { "x-dead-letter-exchange", "mpcalc-dlx" },
-            { "x-dead-letter-routing-key", "mpcalc-deleter-queue-dlq" }
+            { "x-dead-letter-exchange", "mpcalchub.contact_removed.dlx" },
+            { "x-dead-letter-routing-key", "mpcalchub.contact_removed.error" }
         });
 
         await channel.QueuePurgeAsync(_queueName);
